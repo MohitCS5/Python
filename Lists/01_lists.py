@@ -14,3 +14,17 @@ print(len(a))
 a = ["12","apple","banana","mango"]
 a.pop(1)
 print(len(a))
+
+#If item exists
+a = ["12","apple","banana","mango"]
+if "apple" in a:
+    print ("yes," "apple is in the list")
+
+#with
+a = input("Enter your word: ")
+if "orange" in a:
+    print ("yes," "orange is in the list")
+else:
+    print("no","This is not present in the list")
+
+
