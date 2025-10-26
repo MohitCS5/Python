@@ -6,7 +6,10 @@ print(a.ndim)
 #3 dimensional array to create  use ([[[this]]]) the more square 
 # brackets you use the more dimensions it will have
 import numpy as np
-b = np.array([[[1,2,3,5,6],[1,2,3,5,5],[1,2,3,5,6], [1,2,3,4,5]])
+b = np.array([[[[1,2,3,5,6],
+                [1,2,3,5,5],
+                [1,2,3,5,6],
+                [1,2,3,4,5]]]])
 print(b)
 print(b.ndim)
 #use ndim to check dimensions of array
@@ -23,4 +26,19 @@ import numpy as np
 d = np.array([[1,3,4,6],
               [1,3,5,6,]])
 print(d.size)
-print 
+print(d)
+
+#addinng items in the in two lists
+list1 =[1,2,3,5]
+list2 =[4,5,6,7]
+for x in list2:
+    list1.append(x)
+    print (list1)
+
+#Tuples in python
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+#Tuples are unchangeable
+
+array = np.array(thistuple)
+print(array)

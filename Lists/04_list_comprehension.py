@@ -31,13 +31,15 @@ for x in numbers:
    if x % 2 ==0:
       even_numbers.append(x)
 print(even_numbers)
-
 #list comprehension
 numbers = [3,7,2,8,5,10,1]
 even_numbers = [x for x in numbers if x % 2 ==0]
-
-
 #iterable
 x = [1,2,3,4,5,6,7,8,9]
 newlist = [x for x in x if x >5]
 print(newlist)
+
+
+
+
+

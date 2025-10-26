@@ -25,3 +25,17 @@ array3 = np.arange(1,13)
 print(array3.shape)
 print(type(array3))
 
+#indexing
+import numpy as np
+a = np.arange(1,9)
+print(a)
+
+import numpy as np 
+b = np.array([[1,2,3,5,6,9],
+              [1,2,3,4,6,6],
+              [1,2,3,5,6,7]])
+print(b.ndim)
+print(b)
+print(b[1,4])
+
+
