@@ -33,3 +33,11 @@ print(x)
 fruits = ("apple", "banana", "cherry")
 (green, yellow, red) = fruits
 print(green)
+
+#checking if the tuple exist or not
+thistuple = ("apple","banana","banana","mango")
+x = input("Enter you fav fruit: ")
+if x in thistuple:
+    print("yes ths is available")
+else:
+    print("no this is not present")
