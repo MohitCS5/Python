@@ -41,3 +41,27 @@ if x in thistuple:
     print("yes ths is available")
 else:
     print("no this is not present")
+#loop through the tuple
+thislist = ("apple","banana","mango")
+for x in thislist:
+  print(len(x))
+
+x = ("apple","mango","cherry")
+i = 0
+while i < len(x):
+   print("yes"[i])
+   i = i+1
+
+#python built in method 
+#count()
+#index()
+x = ("apple","banana","cherry","apple")
+print(x.count("apple"))
+
+#x is a tuple → it has built-in methods (functions that belong to it).
+#You access them with a dot (.).
+#count() means “count how many times something appears.”
+#x.count("apple") = “Tell x to count how many times 'apple' appears.”
+
+x = ("apple","banana","mango","cherry")
+print(x.index("mango"))
