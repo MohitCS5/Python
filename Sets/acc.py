@@ -6,7 +6,6 @@ for x in x:
 
 x = {"apple","mango","banana","cherry"}
 print("apple" in x )
-#not in to check if the value is not present in the variable x
 
 #we cannot replace change items in set but we can add one 
 
