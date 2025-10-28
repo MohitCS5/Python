@@ -63,5 +63,5 @@ print(type(set1))
 
 
 set1 = {"apple", "banana", "cherry"}
-x = set1.copy(set1)
+x = set1.copy()
 print(x)
