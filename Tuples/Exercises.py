@@ -26,3 +26,12 @@ i = 0
 while i<len(fruits):
     print(fruits [i])
     i = i+1
+
+#7
+tuple1 = (1,2,3,5,6)
+tuple1 = tuple1*2
+print(tuple1)
+
+tuple1 = (1,2,3,5,6,76)
+result = tuple(x*2 for x in tuple1)
+print(result)
