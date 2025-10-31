@@ -30,4 +30,3 @@ x = np.array([[1,3,5,6],
               [2,5,6,7]])
 x.sort(axis=0)
 print(x)
- 
