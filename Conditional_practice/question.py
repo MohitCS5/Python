@@ -82,3 +82,9 @@ else:
     print("invalid password")
 print(strength)
 print(len(password))
+#----------------8th quesiton
+year = 2024
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print(year,"this is a leap year")
+else:
+    print("this is not a leap year")
