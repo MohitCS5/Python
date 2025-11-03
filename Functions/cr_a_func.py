@@ -60,3 +60,87 @@ def myfunc(a1,a2):
 
 result = myfunc(3,5)
 print(result)
+
+def myfunc(animal,name):
+    print("I have a",animal)
+    print("My" , animal + "s name  is", name)
+
+myfunc(name = "Buddy", animal = "dog") 
+
+def find_max(mylist):
+    if len (mylist)==1:
+        return mylist[0]
+    
+print(find_max([2,5,3]))
+   
+def my_function(a,b,/,*,c,d):
+    return a+b+c+d
+result = my_function(5,10,c=15,d =20)
+print(result)
+
+def add(a,b,/):
+    return a+b
+
+print(add(5,10))
+
+def multiply(*,x,y):
+    return x*y
+
+print(multiply(x=5,y=5))
+
+def myfunc(greeting,*names):
+    for name in names:
+        print(greeting,name)
+
+myfunc("hello","Emil","Tobias","linus")
+
+def cube(num):
+    return num**3
+
+cube = lambda x:x**3
+print(cube(3))
+
+def myfunc(x,y):
+    return x*y
+result = (myfunc(6,7))
+print(result)
+print(myfunc(6,'a'))
+print(myfunc(5,7))
+
+def myfunc(x,b):
+    return x**y
+
+def myfunc(*numbers):
+    total = 0
+    for num in numbers:
+        total +=num
+    return total
+
+print(myfunc(1,2,3))
+print(myfunc(10,20,40))
+print(myfunc(5))
+
+def myfunc(*numbers):
+    if len(numbers)==0:
+        return None
+    max_num = numbers[0]
+    for num in numbers:
+        if num>max_num:
+            max_num = num
+    return max_num
+
+print(myfunc(2,5,6,7,1))
+
+def myfunc(username,**details):
+    print("username",username)
+    print("addtional details")
+    for key, value in details.items():
+        print("",key + ":",value)
+myfunc("emil",age=25, city ="oslo",hobby = "coding")
+
+def myfunc(a,b,c):
+    return a+b+c
+
+numbers = [1,2,3]
+result =myfunc(*numbers)
+print(result)
