@@ -30,3 +30,48 @@ def myfunc():
 myfunc()
 
 print(x)
+
+#lambda--------
+cube = lambda x: x**2
+print(cube(5))
+
+def myfunc(n):
+    return lambda a: a*n
+
+double = myfunc(2)
+
+print(double(11))
+
+def myfunc(n):
+    return lambda a: a*n
+mytripler = myfunc(3)
+print(mytripler(11))
+
+def myfunc(n):
+    return lambda a:a*n
+double = myfunc(2)
+triple = myfunc(3)
+
+print(triple(11))
+print(double(11))
+
+numbers =[1,2,3,5,6]
+doubled = list(map(lambda x:x*2,numbers))
+print(doubled)
+
+# numbers = [1,3,5,6,7]
+# odd_numbers = list(filter(lambda x: x %2 ! =0 ,numbers))
+# print(odd_numbers)
+
+words =["apple","pie","mango","cherry"]
+sorted_words = sorted(words ,key = lambda x:len(x))
+print(sorted_words)
+
+def countdown(n):
+    if n<0:
+        print("Done")
+    else:
+        print(n)
+        countdown(n-1)
+
+countdown(5)
