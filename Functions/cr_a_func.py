@@ -144,3 +144,13 @@ def myfunc(a,b,c):
 numbers = [1,2,3]
 result =myfunc(*numbers)
 print(result)
+ 
+
+def sum_all(x,num):
+    return x+num
+
+x = int(input("Enter your number :"))
+num = int(input("Enter your 2nd number: "))
+result = sum_all()
+print(result)
+
