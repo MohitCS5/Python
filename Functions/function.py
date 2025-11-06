@@ -67,6 +67,7 @@ words =["apple","pie","mango","cherry"]
 sorted_words = sorted(words ,key = lambda x:len(x))
 print(sorted_words)
 
+#countdown---------
 def countdown(n):
     if n<0:
         print("Done")
@@ -75,3 +76,46 @@ def countdown(n):
         countdown(n-1)
 
 countdown(5)
+
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+
+    else:
+        return n*factorial(n-1)
+
+print(factorial(5))
+
+#recursion with list
+#calculating ths sum of al elements in a list
+def sum_list(numbers):
+    if len(numbers) == 0:
+        return 0
+    else:
+        return numbers[0] + sum_list(numbers[1:])
+
+my_list =[1,2,3,4,5,6,]
+print(sum_list(my_list))
+
+def myfunc():
+    try:
+        yield 1
+        yield 2
+        yield 3
+    finally:
+        print("generator closed")
+
+mytuple = ("apple", "banana", "cherry")
+myit = iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
+mytuple = ["apple","banana","cherry","mango"]
+myit = iter[mytuple]
+
+print(next([mytuple]))
+print(next([mytuple]))
+print(next([mytuple]))
+# print(next[mytuple])
