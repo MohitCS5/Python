@@ -98,14 +98,14 @@ print(reverse("arjun"))
 # print(find_max([2,,5,6,77,3,59]))
 
 
-def find_max(lst):
-    if len(lst) == l:
-        return lst[0]
-    else:
-        max_rest = find_max(lst[1:])
-        return lst[0] if lst[0] < max_rest else max_rest
+# def find_max(lst):
+#     if len(lst) == l:
+#         return lst[0]
+#     else:
+#         max_rest = find_max(lst[1:])
+#         return lst[0] if lst[0] < max_rest else max_rest
 
-print( find_max([2,3,5,6,7]))
+# print( find_max([2,3,5,6,7]))
 
 def countdown(n):
     if n == 0:
@@ -138,45 +138,3 @@ for fruits in fruits:
     print(fruits)
 
 
-# for i in range (5):
-#     print(i)
-
-# #with break and continue
-# for in inrange(6):
-#     if i == 3:
-#         continue
-#     if i ==5:
-#         print(n)
-
-
-# total = 0
-# for in in range(1,6):
-#     total  +=1
-#     print(total)
-# person = {"name" : "alex", "age": 22, "city": "Delhi"}
-# for key in person:
-#     print(key, ":" person[key])
-
-# for i in range (10):
-#     if i % 2 ==0:
-#         print(i,"is even")
-
-#variable == name that temporarily holds each item
-#sequence == list , string, range ,tuple, or anything iterable
-# the intended block under it run once for each item
-
-for x in range (5):
-    print(x)
-
-marks = [80,67,8,79]
-total =0 
-for m in marks:
-    total +=  m
-print("total:", total)
-
-
-# arks = [80, 75, 90, 85]
-# total = 0
-# for m in marks:
-#     total += m
-# print("Total:", total)
