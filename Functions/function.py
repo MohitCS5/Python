@@ -119,3 +119,21 @@ print(next([mytuple]))
 print(next([mytuple]))
 print(next([mytuple]))
 # print(next[mytuple])
+
+def my_function(country = "Norway"):
+    print("I am from", country)
+
+my_function("Sweden")
+my_function("india")
+my_function()
+
+def greet(name = "friend"):
+    print("Hello" , name)
+greet()
+greet("Alex")
+
+#Functions returning multiple values
+def calc(a,b):
+    return a+b, a-b
+add,sub = calc(10,5)
+print(add,sub)
