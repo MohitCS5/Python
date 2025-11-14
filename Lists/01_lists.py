@@ -27,4 +27,12 @@ if "orange" in a:
 else:
     print("no","This is not present in the list")
 
+b = "hello world"
+print(b[2:5])
+
+list = ["apple","banana","cherry","pineapple"]
+print(list[2:5])
+
+
+
 
