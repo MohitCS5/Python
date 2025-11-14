@@ -62,3 +62,17 @@ def myfunc(*numbers):
         total += num
     return total
 print(myfunc(2,5,6,7))
+
+def add(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+print(add(5,6,7,8))
+
+def add(*numbers):
+    total = 0
+    for num in numbers:
+        total +=num
+    return total
+print(myfunc(2,5,6,7))
