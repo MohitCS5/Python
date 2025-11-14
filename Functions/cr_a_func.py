@@ -100,15 +100,13 @@ def cube(num):
 cube = lambda x:x**3
 print(cube(3))
 
-def myfunc(x,y):
-    return x*y
-result = (myfunc(6,7))
-print(result)
-print(myfunc(6,'a'))
-print(myfunc(5,7))
+# def myfunc(x,y):
+#     return x*y
+# result = (myfunc(6,7))
+# print(result)
+# print(myfunc(6,'a'))
+# print(myfunc(5,7))
 
-def myfunc(x,b):
-    return x**y
 
 def myfunc(*numbers):
     total = 0
