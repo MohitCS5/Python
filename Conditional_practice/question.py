@@ -88,3 +88,46 @@ if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
     print(year,"this is a leap year")
 else:
     print("this is not a leap year")
+
+# for i in range (5):
+#     print(i)
+
+# #with break and continue
+# for in inrange(6):
+#     if i == 3:
+#         continue
+#     if i ==5:
+#         print(n)
+
+
+# total = 0
+# for in in range(1,6):
+#     total  +=1
+#     print(total)
+# person = {"name" : "alex", "age": 22, "city": "Delhi"}
+# for key in person:
+#     print(key, ":" person[key])
+
+# for i in range (10):
+#     if i % 2 ==0:
+#         print(i,"is even")
+
+#variable == name that temporarily holds each item
+#sequence == list , string, range ,tuple, or anything iterable
+# the intended block under it run once for each item
+
+for x in range (5):
+    print(x)
+
+marks = [80,67,8,79]
+total =0 
+for m in marks:
+    total +=  m
+print("total:", total)
+
+
+# arks = [80, 75, 90, 85]
+# total = 0
+# for m in marks:
+#     total += m
+# print("Total:", total)
