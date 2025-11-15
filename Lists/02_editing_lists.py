@@ -41,3 +41,20 @@ c.remove("banana")
 
 #in remove we specify the value name but in pop we have to 
 #specify the index value so use accordingly to your need
+
+#removing list items
+thislist = ["apple","bannaa","cherry"]
+thislist.remove("banana")
+print(thislist)
+
+thislist = ["apple","bannaa","cherry"]
+thislist.pop(2)
+print(thislist)
+
+thislist = ["apple","bannaa","cherry"]
+thislist.pop()
+print(thislist)
+
+thislist =["apple","banana","cherry"]
+del thislist[0]
+print(thislist)

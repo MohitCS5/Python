@@ -131,3 +131,6 @@ print("total:", total)
 # for m in marks:
 #     total += m
 # print("Total:", total)
+
+def my_func(name):
+    print("hello", name)
