@@ -68,3 +68,45 @@
 
 # result = myfunction(5,3)
 # print(result)
+
+def myfunc(fname):
+    print(fname+ "refsnes")
+
+myfunc("Emil")
+myfunc("Tobias")
+myfunc("linus")
+
+def my_function(country ="norway"):
+    print("i am from",country)
+
+my_function("sweden")
+my_function("india")
+my_function()
+my_function("brazil")
+
+def my_function(animal,name):
+    print("I have a ",animal)
+    print("my",animal +"name is " name)
+
+my_function(animal = "dog",name ="buddy")
+
+def my_function(country ="norway"):
+    print("i am from ",country)
+
+my_function("sweden")
+my_function("india")
+my_function()
+my_function("brazil")
+
+#______
+def my_function(animal,name):
+    Print("i hav a",animal)
+    print("my",animal + "sname is",name)
+
+my_function(animal = "dog", name = "buddy")
+
+def my_function(animal,name):
+    print("i have a " ,animal)
+    print("my",animal + "s name is",name) 
+
+my_function(name ="buddy" ,animal  ="dogS")
